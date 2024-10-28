@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: gestion-matriculas
+  data:
+    mongodb:
+      uri: ${DATABASE_URL:mongodb://localhost:27017/gestion_matriculas}
+
+jjwt:
+  secret: 4u7x!A%D*G-KaNdRgUkXp2s5v8y/B?E(H+MbQeShVmYq3t6w9z$C&F)J@NcRfUjW
+
+routing:
+  cursos-path: ${CURSOS_PATH:/api/v2/cursos}
+  estudiantes-path: ${ESTUDIANTES_PATH:/api/v2/estudiantes}
+  registro-path: ${REGISTROS_PATH:/api/v2/registro-matricula}

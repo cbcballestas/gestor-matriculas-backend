@@ -1,0 +1,76 @@
+
+{
+    "_id" : ObjectId("5e0181036406aa781ce6440e"),
+    "name" : "ADMIN"
+}
+
+{
+    "_id" : ObjectId("5e0181106406aa781ce6440f"),
+    "name" : "USER"
+}
+
+
+{
+    "_id" : ObjectId("5e01811b6406aa781ce64410"),
+    "username" : "mitocode",
+    "password" : "$2a$10$ju20i95JTDkRa7Sua63JWOChSBc0MNFtG/6Sps2ahFFqN.HCCUMW.",
+    "status" : true,
+    "roles" : [ 
+        {
+            "_id" : ObjectId("5e0181036406aa781ce6440e")
+        }
+    ]
+}
+
+{
+    "_id" : ObjectId("5e052cd662f50066a04e0460"),
+    "username" : "code",
+    "password" : "$2a$10$ju20i95JTDkRa7Sua63JWOChSBc0MNFtG/6Sps2ahFFqN.HCCUMW.",
+    "status" : true,
+    "roles" : [ 
+        {
+            "_id" : ObjectId("5e0181106406aa781ce6440f")
+        }
+    ]
+}
+
+
+
+{
+    "_id" : ObjectId("5f8f8f50fd111497fdc780c6"),
+    "icon" : "customer_icon",
+    "name" : "Customer",
+    "url" : "/customers",
+    "roles" : [
+        "ADMIN",
+        "USER"
+    ]
+}
+{
+    "_id" : ObjectId("5f8f8f50fd111497fdc780c8"),
+    "icon" : "dish_icon",
+    "name" : "Dish",
+    "url" : "/dishes",
+    "roles" : [
+        "ADMIN",
+        "USER"
+    ]
+}
+{
+    "_id" : ObjectId("5f8f8f50fd111497fdc780c9"),
+    "icon" : "invoice_icon",
+    "name" : "Invoice",
+    "url" : "/newInvoice",
+    "roles" : [
+        "ADMIN"
+    ]
+}
+{
+    "_id" : ObjectId("5f8f8f50fd111497fdc780f7"),
+    "icon" : "invoices_icon",
+    "name" : "Invoices",
+    "url" : "/invoices",
+    "roles" : [
+        "ADMIN"
+    ]
+}
